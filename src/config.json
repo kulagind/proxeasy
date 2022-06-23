@@ -1,0 +1,13 @@
+{
+  "api": "/",
+  "port": 8001,
+  "destination": "https://demo-empl.wiseadvice.ru/lk_ru/data",
+  "proxiedHeaders": [
+    "Authorization",
+    "Employee-Id",
+    "User-Agent"
+  ],
+  "origins": [
+    "http://127.0.0.1:4200"
+  ]
+}
